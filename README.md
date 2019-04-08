@@ -1,6 +1,6 @@
 ## Data Science MVP - v0.1
 
-A basic data science project intended to demonstrate how to use cookiecutter-data-science for better project workflow and engineering practices.
+This is a basic data science project template intended to demonstrate how to use [cookiecutter-datascience](https://drivendata.github.io/cookiecutter-data-science/) for better project workflow and engineering practices.
 
 In v0.1, we take a freshly initialized cookiecutter datascience project and remove the files that are likely to be unfamiliar to new data scientists, leaving only the ones that present a self-describing project workflow.
 
