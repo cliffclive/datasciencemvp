@@ -48,7 +48,8 @@ Project Organization
 
 --------
 Removed files:
-(See https://datasciencemvp.com for tutorials on how to integrate these with your projects. These tools may be unfamiliar to new data scientists, and the intention behind this version is to get you up and running as quickly as possible.)
+
+(See https://datasciencemvp.com for tutorials on how to integrate these with your projects. And drop me a comment if you're eager to get started with any of these and I haven't written a post about them yet. These tools may be unfamiliar to new data scientists, and the intention behind this version is to get you up and running as quickly as possible.)
 
     ├── Makefile           <- Makefile with commands like `make data` or `make train`
     ├── data
