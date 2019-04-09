@@ -6,7 +6,13 @@ In v0.1, we take a freshly initialized cookiecutter datascience project and remo
 
 ## How to use this template (v0.1)
 
-Now use the following cells as a guide as you work through your Minimum Viable Product. Remember, the purpose of the MVP is not to put together a solution that's ready to be published! This is your chance to take a quick pass through the data, run it through a simple model, and get some preliminary results. When this phase is over, you'll have an end-to-end pipeline and a basic understanding of the problem. Then you'll be able to iterate on each stage as you improve your research and find better and better insights.
+Use `notebooks/mvp.ipynb` as a guide as you work through your Minimum Viable Product. Each section will guide you through one stage of a data science pipeline. I've structured this following the OSEMN (pronounced "awesome") paradigm of data science, an iterative process of **O**btaining, **S**crubbing, **E**xplaining, **M**odeling, and i**N**terpreting data. 
+
+I've also added a preliminary step, **A**bstract (which conveniently does not break the acronym any more than it already is). I believe that the preliminary design phase is important enough to earn a formal place in the model. Take some time to think about what you want to do -- and practice describing your project -- before you dive into the code.
+
+When working through the notebook, remember that the purpose of the MVP is not to put together a solution that's ready to be published! This is your chance to take a quick pass through the data, run it through a simple model, and get some preliminary results. When this phase is over, you'll have an end-to-end pipeline and a basic understanding of the problem. Then you'll be able to iterate on each stage as you improve your research and find better and better insights.
+
+## Turning the MVP into a working pipeline
 
 At the start of each code cell there is a `%%writefile` command that is commented out twice. When you're done building your MVP, uncomment these lines and run the cells again. (Remember to run the entire notebook once before doing this to make sure that your code works!) These commands will export your code cells to python scripts in the `src` directory. The last cell will build a `main.py` script in the top level directory that can be run to execute the entire pipeline.
 

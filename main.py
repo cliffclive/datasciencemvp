@@ -4,6 +4,7 @@ import src.models.train_model
 import src.models.predict_model
 import src.visualization.visualize
 
+# python main.py
 if __name__ == "__main__":
     src.data.make_dataset.run()
     src.features.build_features.run()
