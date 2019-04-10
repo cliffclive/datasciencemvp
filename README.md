@@ -6,9 +6,22 @@ In v0.1, we take a freshly initialized cookiecutter datascience project and remo
 
 ## How to use this template (v0.1)
 
-Use `notebooks/mvp.ipynb` as a guide as you work through your Minimum Viable Product. Each section will guide you through one stage of a data science pipeline. I've structured this following the OSEMN (pronounced "awesome") paradigm of data science, an iterative process of **O**btaining, **S**crubbing, **E**xplaining, **M**odeling, and i**N**terpreting data. 
+Use `notebooks/mvp.ipynb` as a guide as you work through your Minimum Viable Product. Each section will guide you through one stage of a data science pipeline. I've structured this following the OSEMN (pronounced "awesome") paradigm of data science:
 
-I've also added a preliminary step, **A**bstract (which conveniently does not break the acronym any more than it already is). I believe that the preliminary design phase is important enough to earn a formal place in the model. Take some time to think about what you want to do -- and practice describing your project -- before you dive into the code.
+# **A**bstract
+Take some time to think about what you want to do -- and practice describing your project -- before you dive into the code. I've added this step to the OSEMN workflow because  I believe that the preliminary design phase is important enough to earn a formal place.
+# **O**btain
+Find the data that will help you achieve the goals of your design. Don't do anything with it yet; save a copy of the data in its raw state. Take some time to write some notes about where you found it, what information it contains, and how you expect it to answer your question. 
+# **S**crub
+Look through the raw data files and see what you will need to do to them in order to have a workable data set. If your source data is already well-formatted, you may want to ask yourself why it hasn't already been analyzed and what other people may have overlooked when they were working on it. Are there other data sources that might give you more insights on some of the data you have here? The end goal of this step is to produce a design matrix, containing one column for every variable that you are modeling, including a column for the outputs, and one row for every observation in your data set. It needs to be in a format that won't cause any problems as you visualize and model your data.
+# **E**plore
+Before you start exploring the data, write out your thought process about what you're looking for and what you expect to find. Take a minute to confirm that your plan actually makes sense. Calculate summary statistics and plot some charts to give you an idea what types of useful relationships might be in your dataset. Use these insights to go back and download additional data or engineer new features if necessary. Not now though... remember we're still just trying to finish the MVP!
+# **M**odel
+Perform a train/validate/test split on your data. Handle class imbalances if you need to. Build and train your models. Save the models for future use. Write a simple program that loads your model and uses it to make predictions -- think of how your end users might want to apply your model. Does it do what it's supposed to do? How easy is it to use?
+# i**N**terpret
+How well does your model perform? How do we know what "good" performance is? How well do humans perform at this task? What kinds of observations are more difficult for it to predict correctly? Difficult problems usually don't have right or wrong answers. How well can you explain your results?
+
+## Get it to work, then get it to work right.
 
 When working through the notebook, remember that the purpose of the MVP is not to put together a solution that's ready to be published! This is your chance to take a quick pass through the data, run it through a simple model, and get some preliminary results. When this phase is over, you'll have an end-to-end pipeline and a basic understanding of the problem. Then you'll be able to iterate on each stage as you improve your research and find better and better insights.
 
