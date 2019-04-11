@@ -6,6 +6,18 @@ In v0.1, we take a freshly initialized cookiecutter datascience project and remo
 
 ## How to use this template (v0.1)
 
+First install cookiecutter if you haven't already:
+```
+pip install cookiecutter
+```
+
+Then run this command from the terminal to create a project directory and fill it with the template files from this repo:
+```
+cookiecutter https://github.com/cliffclive/datasciencemvp
+```
+
+Check the end of this README document to see what files will be created in your project directory. 
+
 Use `notebooks/mvp.ipynb` as a guide as you work through your Minimum Viable Product. Each section will guide you through one stage of a data science pipeline. I've structured this following the OSEMN (pronounced "awesome") paradigm of data science:
 
 ### **A**bstract
