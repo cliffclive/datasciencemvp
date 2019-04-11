@@ -3,8 +3,13 @@
 Author: {{ cookiecutter.author }}
 Description: {{ cookiecutter.description }}
 
-## Project Organization (modified from cookiecutter-datascience)
+## Project Organization 
 ------------
+
+(generated with [datasciencemvp](https://github.com/cliffclive/datasciencemvp/))
+
+(modified from [cookiecutter-datascience](https://drivendata.github.io/cookiecutter-data-science/))
+
 ```
     ├── LICENSE
     ├── README.md          <- The top-level README for developers using this project.
