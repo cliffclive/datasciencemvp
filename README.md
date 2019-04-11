@@ -46,8 +46,10 @@ Note that for this to work, you'll either need to include your import statements
 _In this version (0.1), I've removed the files from cookicutter datascience that would be useful for releasing your project as an installable package._
 
 
-## Project Organization (modified from cookiecutter-datascience)
+## Project Organization 
 ------------
+(adapted from [cookiecutter-datascience](https://drivendata.github.io/cookiecutter-data-science/))
+
 ```
     ├── LICENSE
     ├── README.md          <- The top-level README for developers using this project.
