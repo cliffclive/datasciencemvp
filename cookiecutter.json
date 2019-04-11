@@ -1,6 +1,7 @@
 {
-	"datasciencemvp": "datasciencemvp",
+	"project_name": "My Project Name",
+	"project_directory": "my_project_name",
 	"author": "My Name",
-	"description": "My Super Cool Data Science Project"	
+	"description": "This is a machine learning model that demonstrates that vaccines do not cause autism."	
 }
 
