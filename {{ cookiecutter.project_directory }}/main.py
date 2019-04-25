@@ -1,13 +1,13 @@
-import src.data.make_dataset
-import src.features.build_features
-import src.models.train_model
-import src.models.predict_model
-import src.visualization.visualize
+import src.obtain
+import src.scrub
+import src.explore
+import src.model
+import src.interpret
 
 # python main.py
 if __name__ == "__main__":
-    src.data.make_dataset.run()
-    src.features.build_features.run()
-    src.models.train_model.run()
-    src.models.predict_model.run()
-    src.visualization.visualize.run()
+    src.obtain.run()
+    src.scrub.run()
+    src.explore.run()
+    src.model.run()
+    src.interpret.run()
