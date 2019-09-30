@@ -1,10 +1,10 @@
-## Data Science MVP - v0.1
+## Data Science MVP 
 
 This is a basic data science project template intended to demonstrate how to use [cookiecutter-datascience](https://drivendata.github.io/cookiecutter-data-science/) for better project workflow and engineering practices.
 
 In v0.1, we take a freshly initialized cookiecutter datascience project and remove the files that are likely to be unfamiliar to new data scientists, leaving only the ones that present a self-describing project workflow.
 
-## How to use this template (v0.1)
+## How to use this template 
 
 First install cookiecutter if you haven't already:
 ```
@@ -43,7 +43,7 @@ At the start of each code cell there is a `%%writefile` command that is commente
 
 Note that for this to work, you'll either need to include your import statements in the code cells where they're used, or you'll need to go through the generated scripts manually and make sure they have everything they need to run. You will also need to be careful about sharing variable names across cells, since they won't be accessible when the code is exported to separate scripts. Work with these cells as if each one is an independent Python script.
 
-_In this version (0.1), I've removed the files from cookicutter datascience that would be useful for releasing your project as an installable package._
+_This project is a streamlined adaptation of `cookicutter datascience` that includes a Jupyter notebook template to guide you through an initial project design._
 
 
 ## Project Organization 
